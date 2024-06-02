@@ -1,0 +1,28 @@
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.student-table th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.student-table td:nth-child(1),
+.student-table td:nth-child(3) {
+    text-align: center;
+}
+
+.student-table th:nth-child(1),
+.student-table th:nth-child(3),
+.student-table td:nth-child(1),
+.student-table td:nth-child(3) {
+    width: 15%;
+}
